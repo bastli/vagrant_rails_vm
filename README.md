@@ -8,7 +8,7 @@ Using The VM
 
 -Install Vagrant
 
--Download Box-File
+-Download [VM] (https://www.dropbox.com/s/binfgjwo3rz8urp/package.box)
 
 -Import VM into Vagrant
 
