@@ -12,33 +12,33 @@ Using The VM
 
 -Import VM into Vagrant
 
->$ vagrant box add my_box /path/to/the/package.box
+`$ vagrant box add my_box /path/to/the/package.box`
 
 -Go into working directory and Init the VM
 
->$ vagrant init my_box
+`$ vagrant init my_box`
 
->$ vagrant up
+`$ vagrant up`
 
 -SSH into VM 
 
->$ vagrant ssh
+`$ vagrant ssh`
 
 -Suspend VM
 
->$ vagrant suspend
+`$ vagrant suspend`
 
 -Resume VM
 
->$ vagrant resume
+`$ vagrant resume`
 
 -Halt VM
 
->$ vagrant halt
+`$ vagrant halt`
 
 -Start VM
 
->$ vagrant up
+`$ vagrant up`
 
 
 Building and Packaging VM
@@ -51,7 +51,7 @@ Building and Packaging VM
 
 -Install Librarian Gem
 
->$ gem install librarian
+`$ gem install librarian`
 
 -Install git
 
@@ -59,13 +59,13 @@ Building and Packaging VM
 
 -Build VM
 
->$ vagrant up
+`$ vagrant up`
 
 -Make updates and changes if necessary
 
 -Package VM
 
->$ vagrant package --vagrantfile Vagrantfile.pkg
+`$ vagrant package --vagrantfile Vagrantfile.pkg`
 
 
 
