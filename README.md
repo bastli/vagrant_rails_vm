@@ -57,6 +57,10 @@ Building and Packaging VM
 
 -Clone Git Repo
 
+-Setup Cookbooks
+
+`librarian-chef install`
+
 -Build VM
 
 `$ vagrant up`
