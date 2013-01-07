@@ -8,15 +8,13 @@ Using The VM
 
 -Install Vagrant
 
--Download [VM] (https://www.dropbox.com/s/binfgjwo3rz8urp/package.box)
-
 -Import VM into Vagrant
 
-`$ vagrant box add my_box /path/to/the/package.box`
+`$ vagrant box add bastli_box http://www.bastli.ethz.ch/dev/package.box`
 
 -Go into working directory and Init the VM
 
-`$ vagrant init my_box`
+`$ vagrant init bastli_box`
 
 `$ vagrant up`
 
